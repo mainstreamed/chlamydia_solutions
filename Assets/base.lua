@@ -24,4 +24,4 @@ local window = uiLibrary:CreateWindow({
 });
 
 
-return {window, themeManager, saveManager};
+return window, themeManager, saveManager;
