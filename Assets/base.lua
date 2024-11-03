@@ -16,7 +16,7 @@ local themeManager      = loadAsset('themeManager.lua');
 local saveManager       = loadAsset('saveManager.lua');
 
 local window = uiLibrary:CreateWindow({
-      Title             = `Chlamydia Solutions {gameName} | version: {sversion}`;
+      Title             = `{gameName} | version: {sversion}`;
       Center            = true;
       AutoShow          = true;
       TabPadding        = 8;
